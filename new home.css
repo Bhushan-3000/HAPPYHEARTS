@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    max-width: 100%;
+  }
+
+
+#home{
+    height: 89vh;
+    background: url(assets/home-bg.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* padding-top: 32px; */
+
+}
+
+.main-container{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.home-head{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    padding: 15px;
+}
+
+.home-p{
+    text-align: center;
+    font-size: 16px;
+    /* padding-right: 20px; */
+    /* font-weight: lighter; */
+}
+
+#home-container{
+    background-color: rgba(255, 255, 255, .4);
+    border: 1px solid #efefef;
+    border-radius: 16px;
+}
+
+
+/* #psy-prob{ */
+  /* height: 150vh; */
+  /* width: 100%; */
+  /* background: #EBF4F6; */
+/* } */
+
+#psy-prob h1{
+  font-size: 38px;
+  font-weight: bold;
+}
+
+#psy-prob h5{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#psy-prob p{
+  font-size: 15px;
+  line-height: 1.8;  
+}
+
+
+#About{
+  /* height: 100vh; */
+  
+  background: #EBF4F6;
+}
+
+#About h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#About h5{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#About p, li{
+  font-size: 18px;
+}
+
+
+#services{
+  background: #EBF4F6;
+
+}
+
+#Psychologists{
+  background: #EBF4F6;
+
+
+}
+
+.psy-text{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.psy-text h1{
+  /* border: 1px solid blue; */
+  font-size: 40px;
+  font-weight: bold;
+}
+
+
+
+#Contact{
+  background: #EBF4F6;
+
+}
+
+#Contact label{
+  font-weight: bold;
+}
+
+
+#footer a{
+  text-align: center;
+  color: #EBF4F6;
+  text-decoration: none;
+}
+
+
+#footer li{
+  padding-bottom: 10px;
+
+}
+
+#footer ol{
+  font-size: 28px;
+  font-weight: bold;
+  color: #EBF4F6;
+}
+
+
+#social-links{
+  /* display: flex; */
+  text-align: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* border: 1px solid yellow; */
+  /* margin-left: 25px; */
+}
+
+#social-links ol{
+/* border: 1px solid red; */
+text-align: center;
+margin-left: -25px;
+}
+
+.col i{
+  font-size: 20px;
+  text-align: center;
+  margin-right: 15px;
+}
+
+#footer p{
+  color: #EBF4F6  ;
+}
